@@ -1,6 +1,7 @@
 package com.example.appextra3
 
 import android.annotation.SuppressLint
+import android.content.Intent
 import android.os.Bundle
 import android.widget.EditText
 import android.widget.TextView
@@ -130,6 +131,8 @@ class MainActivity : AppCompatActivity() {
 
     private fun nav2confirmationScreen()
     {
-        Toast.makeText(this, "Hola Twitter", Toast.LENGTH_SHORT)
+        var intentCA = Intent(this, ConfirmationActivity::class.java)
+
+        startActivity(intentCA)
     }
 }
