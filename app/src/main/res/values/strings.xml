@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">AppExtra3</string>
+    <string name="nombre_restaurante">Restaurante \nTres Delicias</string>
+    <string name="cd_mesa">Imagen de una mesa</string>
+    <string name="dos_asientos">2 Asientos</string>
+    <string name="cuatro_asientos">4 Asientos</string>
+    <string name="ocho_asientos">8 Asientos</string>
+    <string name="introduce_tu_nombre">Introduce tu nombre</string>
+    <string name="hint">Nombre...</string>
+    <string name="hora_default">20:00</string>
+    <string name="cd_btn_less_time">Botón para atrasar la hora</string>
+    <string name="cd_btn_more_time">Botón para adelantar la hora</string>
+    <string name="cd_btn_add_reserva">Botón para confirmar la reserva</string>
 </resources>

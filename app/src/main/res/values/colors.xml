@@ -9,7 +9,8 @@
     <color name="white">#FFFFFFFF</color>
     <color name="bg_app">#FF0A3E39</color>
     <color name="bg_textView">#FFC8CFCE</color>
-    <color name="text_color">#FF009688</color>
+    <color name="title_color">#FF009688</color>
     <color name="bg_cardView">#FF92C5C0</color>
     <color name="bg_cardView_selected">#FFA05CC5</color>
+    <color name="text_color">#FF353535</color>
 </resources>
