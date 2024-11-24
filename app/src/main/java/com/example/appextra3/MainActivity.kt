@@ -133,6 +133,10 @@ class MainActivity : AppCompatActivity() {
     {
         var intentCA = Intent(this, ConfirmationActivity::class.java)
 
+        intentCA.putExtra("NUM_ASIENTOS", numAsientos)
+        intentCA.putExtra("NOMBRE", nombre)
+        intentCA.putExtra("TIME", time)
+
         startActivity(intentCA)
     }
 }

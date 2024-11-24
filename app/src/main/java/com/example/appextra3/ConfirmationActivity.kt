@@ -46,7 +46,11 @@ class ConfirmationActivity : AppCompatActivity() {
 
     private fun initUI()
     {
-        tv_confirmacion_reserva.text = "Hola que tal k ase todo bien todo correcto y yo que me alegro haha salu2"
+        val numAsientos:Int = intent.extras?.getInt("NUM_ASIENTOS")?:0
+        val nombre:String = intent.extras?.getString("NOMBRE")?:"Nombre_Por_Defecto"
+        val time:Int = intent.extras?.getInt("TIME")?:0
+
+        tv_confirmacion_reserva.text = "Reserva confirmada a nombre de " + nombre + " para " + numAsientos + " personas a las " + time + ":00."
     }
 
     private fun nav2Main()
